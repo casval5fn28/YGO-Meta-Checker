@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="page2.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <p id="Title">Usage Rate of Decks</p>
+  </head>
+  <body>
+    <ul class="nav">
+      <li class="nav-item1">
+          <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="main_page.html">Home</a>
+        </li>
+        <li class="nav-item2">
+          <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="page1.html">Meta Deck Distribution</a>
+        </li>
+      <li class="nav-item3">
+          <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="page3.html">Deck Imformation</a>
+        </li>
+      <li class="nav-item5">
+          <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="page5.html">Deck Price</a>
+        </li>
+      <li class="nav-item4">
+          <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="page4.html">Banlist</a>
+        </li>
+    </ul>
+    <div id="main">
+        <div style="color:rgb(250, 250, 250);" class="selectmenu">
+        <label for="startMonth">From:</label>
+        <select id="startMonth"></select>
+        
+        <label for="endMonth">&nbsp;to&nbsp;</label>
+        <select id="endMonth"></select>
+    
+        <label for="typeFilter">Type:</label>
+        <select id="typeFilter">
+          <option value="All">All</option>
+          <option value="fusion">Fusion</option>
+          <option value="synchron">Synchron</option>
+          <option value="xyz">XYZ</option>
+          <option value="pendulum">Pendulum</option>
+          <option value="link">Link</option>
+          <option value="ritual">Ritual</option>
+          <option value="tribute">Tribute</option>
+          <option value="spell">Spell</option>
+          <option value="trap">Trap</option>
+          <option value="multiple">Multiple</option>
+        </select>
+      </div>
+      <div style="color:rgb(250, 250, 250);" id="lineChart"></div>
+      <div style="color:rgb(250, 250, 250);" id="lineChartInfo"></div>
+    </div>
+    
+    <script src="page(2).js"></script>
+  </body>
+</html>

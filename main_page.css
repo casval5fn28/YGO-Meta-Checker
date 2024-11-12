@@ -1,0 +1,92 @@
+:root {
+  --width: 1000;
+  --height: 50000;
+}
+
+#Title {
+  position: relative;
+  left: 20px;
+  background: linear-gradient(to top, #3a1c71, #d76d77, #ffaf7b);
+  background: -webkit-linear-gradient(to top, #3a1c71, #d76d77, #ffaf7b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center
+}
+
+body {
+  background-color: #001b35;
+  margin: 0px;
+}
+
+svg {
+  position: relative;
+  bottom: 380px;
+  width: var(--width);
+  height: var(--height);
+}
+
+.nav {
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;          
+  flex-wrap: wrap;
+}
+
+.nav-item1 {
+  font-weight: bold;
+}
+
+.nav-item2 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-item3 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-item4 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-item5 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;          
+  flex-wrap: wrap;
+}
+
+#tiptitle {
+  position: relative;
+  bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em
+}
+
+#tip {
+  position: relative;
+  bottom: 60px;
+  left: 300px;
+}
+
+#hope {
+  position: relative;
+  bottom: 60px;
+  text-align: center;
+}
+
+#main {
+  position: relative;
+  left: 20px;
+}

@@ -1,0 +1,74 @@
+#Title {
+  background: linear-gradient(to top, #3a1c71, #d76d77, #ffaf7b);
+  background: -webkit-linear-gradient(to top, #3a1c71, #d76d77, #ffaf7b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center
+}
+
+body {
+  background-color: #001b35;
+  margin: 0px;
+}
+
+svg {
+  position: relative;
+  top: 20px;
+  left: 150px;
+  width: var(--width);
+  height: var(--height);
+}
+
+.selectmenu {
+  position: relative;
+  bottom: 20px;
+  left: 150px;
+}
+
+.nav {
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;          
+  flex-wrap: wrap;
+}
+
+.nav-item1 {
+  font-weight: bold;
+}
+
+.nav-item2 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-item3 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-item4 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-item5 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+#filteredCards {
+  position: relative;
+  bottom: 20px;
+  left: 300px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#main {
+  position: relative;
+  top: 50px;
+}

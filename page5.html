@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Final Project</title>
+  <link rel="stylesheet" href="page5.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <p id="Title">Deck Price</p>
+</head>
+<body>
+  <ul class="nav">
+    <li class="nav-item1">
+        <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="main_page.html">Home</a>
+      </li>
+    <li class="nav-item2">
+        <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="page1.html">Meta Deck Distribution</a>
+      </li>
+    <li class="nav-item3">
+        <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="page2.html">Usage Rate of Decks</a>
+      </li>
+    <li class="nav-item4">
+        <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="page3.html">Deck Imformation</a>
+      </li>
+    <li class="nav-item5">
+        <a style="color:rgb(250, 250, 250);" class="nav-link active" aria-current="page" href="page4.html">Banlist</a>
+      </li>
+  </ul>
+  <div id="main">
+    <div style="color:rgb(250, 250, 250);" class="selectmenu">
+      <label for="deckSelect">Select Deck:</label>
+      <select id="deckSelect">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <div style="color:rgb(250, 250, 250);" class="selectmenu">
+      <label for="sortSelect">Sort by Total Price:</label>
+      <select id="sortSelect">
+        <option value="ascending">Ascending</option>
+        <option value="descending">Descending</option>
+      </select>
+    </div>
+    <div style="color:rgb(250, 250, 250);" id="stackedBarChart"></div>
+    <div style="color:rgb(250, 250, 250);" id="tooltip"></div>
+  </div>
+  <script src="page5.js"></script>
+</body>
+</html>
